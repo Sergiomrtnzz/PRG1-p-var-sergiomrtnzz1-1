@@ -1,0 +1,14 @@
+Practica P-VAR
+
+Alumno: Sergio Martinez Moran
+
+Horas dedicadas:
+
+Problemas surgidos al realizar la practica: 
+
+Respuestas a la preguntas: 
+en el ejercicio 4 del apartado 3.104 al restar las dos variables como estamos con float el resultado no se puede representar con precisión exacta determinados números decimales en base 10 (como 2.8 o 1.5), lo que provoca imprecisiones por redondeo en los resultados de operaciones aritméticas. 
+en el ejercicio 5 de este mismo aprtado al poner la clase BigDecimal el resultado se halla mediante objetos y por lo tanto evitando los errores que se podian llegar a cometer mediante el uso de float
+en el ejercicio 02 del apartado 3.104 nos pide usar  varInt realizando las conversiones necesarias, conserva el valor 35000 porque entra holgadamente en el rango de un número entero de 32 bits.
+   varShort desborda el límite de los tipos de 16 bits (rango de -32768 a 32767), produciendo un truncamiento binario de los bits más significativos y dando como resultado -30536. 
+  varByte desborda el límite de los tipos de 8 bits (rango de -128 a 127), truncando a los últimos 8 bits y dando como resultado -72. 
